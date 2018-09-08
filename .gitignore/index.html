@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header >
+    <h1 id='header' class='header'>Classic Arcade Game</h1>
+    <button class='start'>Start Game</button>
+
+    <div class="restart">
+      <span>
+        <i class="fa fa-repeat"></i>
+      </span>
+    </div>
+    <span>
+      <p class="timer"><time>00:00:00</time></p>
+   </span>
+  </header>
+
+  <div id='player' class='images'>
+    <h2 class='select'>Select Player</h2>
+    <img class='img' src="images/char-boy.png" alt="boy">
+    <img class='img' src="images/char-cat-girl.png" alt="cat-girl">
+    <img class='img' src="images/char-horn-girl.png" alt="horn-girl">
+    <img class='img' src="images/char-pink-girl.png" alt="pink-girl">
+  </div>
+
+  <section id="end" class="finish">
+    <img src="images/finish-tick.png" alt="game complete tick" class="finish" />
+    <h2 class="finish">Congratulations!!!</h2>
+    <p class="finish">You completed the game!!
+    </p>
+    <button class="finish again">Play Again</button>
+  </section>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
