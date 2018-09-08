@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    height:100%;
+    width: 850px;
+    margin-left: auto;
+   margin-right: auto;
+   background-color: #cce6ff;
+}
+
+.header {
+  font-family: sans-serif;
+  color : darkblue;
+  font-style: italic;
+}
+
+.start {
+  cursor: pointer;
+  background-color: green;
+  margin-right: 7em;
+  padding:5px;
+  font-size: 1em;
+  color:yellow;
+  margin-bottom: 0;
+}
+
+.timer{
+  display: inline;
+  color: yellow;
+  font-size: 1.2em;
+  margin-left: 7em;
+  padding : 5px 10px;
+  background-color: green;
+}
+
+
+#player,
+#end {
+    display: none;
+}
+
+.images {
+  z-index:10;
+  width: 50%;
+  height: 85%;
+  display: block;
+  vertical-align: middle;
+  position: absolute;
+  margin-left: 7%;
+  background-color: white;
+  margin-top: 2em;
+  background-color: grey;
+}
+
+.img {
+  box-sizing: border-box;
+  border-color: black;
+  border-radius: 1em;
+  display: inline-block;
+  padding: 0em 2em;
+  border: 3px solid black;
+  margin: 1em 4em ;
+  cursor: pointer;
+  background-color: skyblue;
+
+}
+
+
+.select {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
+
+.restart {
+
+    cursor: pointer;
+    display: inline-block;
+    color: yellow;
+    background-color: green;
+    padding: 5px;
+    margin-left: 1em;
+}
+
+#end {
+  z-index: 10;
+  background-color: #ccccff;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 10% 0;
+  margin-left: 7%;
+}
+
+button.finish {
+  background-color: blue;
+   height : 2em;
+  width : 6em;
+  font-size: 2em;
+  margin : 1em;
+  color : white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+img.finish{
+  height: 5em;
+  width : 5em;
+  border-radius: 2.5em;
+}
+
+h2.finish{
+  color: red;
+  font-size: 2em;
+}
+
+p.finish{
+  font-size: 1.5em;
+}
